@@ -1,0 +1,15 @@
+{
+  "name": "json-datamapping",
+  "version": "1.0.0",
+  "description": "Json format data mapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Silva",
+  "license": "MIT",
+  "dependencies": {
+    "jexl": "^2.3.0",
+    "lodash": "^4.17.21"
+  }
+}
