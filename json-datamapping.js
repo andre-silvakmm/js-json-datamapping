@@ -143,62 +143,64 @@ function iterateArray(dataItem, mapping, o) {
   });
 }
 
-make(
-  // mapping
-  {
-    // "e:expr": {
-    //   vars: {
-    //     o: "obj",
-    //   },
-    //   expr: "o.t",
-    // },
-    "s:string": "array.0.b",
-    // "number:int": "teste",
-    // "boolean:bool": "val",
-    // "float:float": "val2",
-    // "raw:string": "raw",
-    // "o:object": {
-    //   datasource: "obj",
-    //   mapping: {
-    //     "a:string": "t",
-    //   },
-    // },
-    // "a:array": {
-    //   datasource: "array",
-    //   mapping: {
-    //     "b:string": "b",
-    //     "c:int": "c",
-    //   },
-    // },
-    // "m:custom": {
-    //   "g:string": "obj.t",
-    //   "f:string": "teste",
-    // },
-    // "n:customArray": [
-    //   {
-    //     "g:string": "obj.t",
-    //     "f:string": "teste",
-    //   },
-    // ],
-  },
-  // model
-  {
-    teste: 123,
-    val: false,
-    val2: 1.0,
-    raw: "123213",
-    obj: {
-      t: "teste nested",
-    },
-    array: [
-      {
-        b: "teste arr",
-        c: 1232,
-      },
-      {
-        b: "teste arr 2",
-        c: 1,
-      },
-    ],
-  }
-);
+// make(
+//   // mapping
+//   {
+//     // "e:expr": {
+//     //   vars: {
+//     //     o: "obj",
+//     //   },
+//     //   expr: "o.t",
+//     // },
+//     "s:string": "array.0.b",
+//     // "number:int": "teste",
+//     // "boolean:bool": "val",
+//     // "float:float": "val2",
+//     // "raw:string": "raw",
+//     // "o:object": {
+//     //   datasource: "obj",
+//     //   mapping: {
+//     //     "a:string": "t",
+//     //   },
+//     // },
+//     // "a:array": {
+//     //   datasource: "array",
+//     //   mapping: {
+//     //     "b:string": "b",
+//     //     "c:int": "c",
+//     //   },
+//     // },
+//     // "m:custom": {
+//     //   "g:string": "obj.t",
+//     //   "f:string": "teste",
+//     // },
+//     // "n:customArray": [
+//     //   {
+//     //     "g:string": "obj.t",
+//     //     "f:string": "teste",
+//     //   },
+//     // ],
+//   },
+//   // model
+//   {
+//     teste: 123,
+//     val: false,
+//     val2: 1.0,
+//     raw: "123213",
+//     obj: {
+//       t: "teste nested",
+//     },
+//     array: [
+//       {
+//         b: "teste arr",
+//         c: 1232,
+//       },
+//       {
+//         b: "teste arr 2",
+//         c: 1,
+//       },
+//     ],
+//   }
+// );
+
+module.exports = make;
